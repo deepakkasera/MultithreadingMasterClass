@@ -7,3 +7,5 @@ public class HelloWorldPrinter implements Runnable {
                 Thread.currentThread().getName());
     }
 }
+
+System.out.println("Created a Pull Request")
