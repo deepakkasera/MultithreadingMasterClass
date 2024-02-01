@@ -35,7 +35,7 @@ public class Main {
         Integer num1 = randomNum1.get();
         Integer num2 = randomNum2.get();
 
-        System.out.println("Sum of random numbers : " + (num1 + num2) +
+        System.out.println("Sum number of random numbers : " + (num1 + num2) +
                 " THREAD: " + Thread.currentThread().getName());
     }
 }
