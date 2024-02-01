@@ -26,8 +26,8 @@ public class Main {
 //        }
 
         ExecutorService executorService = Executors.newFixedThreadPool(2);
-        RandomNumberGenerator random1 = new RandomNumberGenerator();
-        RandomNumberGenerator random2 = new RandomNumberGenerator();
+        RandomNumberGenerator random1 = new RandomNumberGenerator<Integer>();
+        RandomNumberGenerator random2 = new RandomNumberGenerator<Integer>();
 
         Future<Integer> randomNum1 = executorService.submit(random1);
         Future<Integer> randomNum2 = executorService.submit(random2);
