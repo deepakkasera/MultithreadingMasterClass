@@ -24,7 +24,7 @@ public class Main {
 //            NumberPrinter numberPrinter = new NumberPrinter(i);
 //            executorService.submit(numberPrinter);
 //        }
-
+        System.out.println("Hello vaibhav this side");
         ExecutorService executorService = Executors.newFixedThreadPool(2);
         RandomNumberGenerator random1 = new RandomNumberGenerator();
         RandomNumberGenerator random2 = new RandomNumberGenerator();
